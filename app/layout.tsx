@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "A community-driven platform for sharing diverse knowledge by asking and answering questions. Form tech tips and programming knowledge to nature, literature and art - get help, share knowledge, and collaborate with people from around the world. Explore topics whatever you like, in your native languages.",
   icons: {
-    icon: "/images/siteLogo.svg",
+    icon: "/images/logo.svg",
   },
 };
 

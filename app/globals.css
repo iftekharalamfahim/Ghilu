@@ -23,7 +23,6 @@
   --color-light-900: #ffffff;
 
   --color-link-100: #1da1f2;
-
   --color-ghilu-blue: #1c376a;
 
   --radius-2: 8px;
@@ -260,32 +259,33 @@
 }
 
 @utility primary-gradient {
-  background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+  background: linear-gradient(129deg, #4663f2 0%, #cb55f2 100%);
 }
 
 @utility dark-gradient {
   background: linear-gradient(
     232deg,
-    rgba(23, 28, 35, 0.41) 0%,
-    rgba(19, 22, 28, 0.7) 100%
+    rgba(38, 38, 38, 38) 0%,
+    rgba(23, 23, 23, 0.7) 100%
   );
+
   background: linear-gradient(
     232deg,
-    rgba(23, 28, 35, 0.41) 0%,
-    rgba(19, 22, 28, 0.7) 100%
+    rgba(38, 38, 38, 38) 0%,
+    rgba(23, 23, 23, 0.7) 100%
   );
 }
 
 @utility light-gradient {
   background: linear-gradient(
     132deg,
-    rgba(247, 249, 255, 0.5) 0%,
-    rgba(229, 237, 255, 0.25) 100%
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.25) 100%
   );
 }
 
 @utility primary-text-gradient {
-  background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+  background: linear-gradient(129deg, #4663f2 0%, #cb55f2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

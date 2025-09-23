@@ -8,8 +8,6 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
@@ -30,11 +28,6 @@ const MobileNavigation = () => {
         <SheetTitle className="hidden">Navigation</SheetTitle>
         <Link href="/" className="flex items-center  gap-1">
           <Image src="/images/siteLogo.svg" width={53} height={53} alt="logo" />
-
-          <p className="h2-bold font-space-grotesk  text-dark-100 dark:text-light-900">
-            ghilu{" "}
-            <span className="text-ghilu-blue text-xs">The Feast of Brains</span>
-          </p>
         </Link>
 
         <div className="no-scrollbar flex h-[calc(100vh-80px)] flex-col justify-between overflow-y-auto">
